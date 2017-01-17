@@ -1,6 +1,8 @@
 # whocall
 A simple extension for vy irc plugin a.k.a vyirc to display a dzen2 text message when someone calls you.
 
+![screenshot-1](screenshot-1.jpg)
+
 # Usage
 
 In your vyrc file, just install the plugin to the irc object that is an IrcMode class.
@@ -16,3 +18,5 @@ def irc_freenode(addr='irc.freenode.org', port=6667, user='vy vy vy :vyirc', nic
     irc = IrcMode(addr, port, user, nick, irccmd, channels)
     WhoCall(irc)
 ~~~
+
+
